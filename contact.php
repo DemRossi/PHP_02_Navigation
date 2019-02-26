@@ -14,9 +14,20 @@
 
     <main>
         <h1>Contact</h1>
+
+        <form>
+            Name:<br>
+            <input type="text" name="firstname"><br>
+            Email:<br>
+            <input type="text" name="email"><br>
+            Message:<br>
+            <input type="text" name="message" id="message"> 
+            <br><br>
+            <input type="submit">
+        </form>
     </main>
-    <footer>
-        &copy; IMD
-    </footer>    
+    <?php
+        include_once('footer.inc.php');
+    ?>
 </body>
 </html>
