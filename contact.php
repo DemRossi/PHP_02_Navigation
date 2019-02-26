@@ -10,7 +10,6 @@
 <body>
     <?php
         include_once('nav.inc.php');
-
     ?>
 
     <main>
